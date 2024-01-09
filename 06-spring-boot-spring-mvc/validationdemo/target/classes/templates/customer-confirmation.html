@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+The customer is confirmed: <spen th:text="${customer.firstName} + ' ' + ${customer.lastName}"/>
+
+<br><br>
+
+Free Passes: <spen th:text="${customer.freePasses}"/>
+
+<br><br>
+
+Postal Code: <spen th:text="${customer.postalCode}"/>
+
+<br><br>
+
+Course Code: <spen th:text="${customer.courseCode}"/>
+
+</body>
+</html>
